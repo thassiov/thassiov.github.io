@@ -1,7 +1,7 @@
 
 # SEO settings
-title: "thassiov()"
-title2: "" # default: ""
+title: "thassiov"
+title2: "()" # default: ""
 description: "O site pessoal de um desenvolvedor backend"
 keywords: "backend, developer, desenvolvedor, programador, programmer, software"
 url: http://thassiov.github.io # site url
