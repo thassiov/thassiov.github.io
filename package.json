@@ -1,0 +1,12 @@
+{
+  "name": "thassiov",
+  "version": "0.1.0",
+  "scripts": {
+    "dev": "node_modules/.bin/gulp dev"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "browser-sync": "^2.18.13",
+    "gulp": "^3.9.1"
+  }
+}

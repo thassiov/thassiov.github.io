@@ -1,30 +1,16 @@
 <!DOCTYPE html>
-<html>
+<html ng-app="thassiov">
     <head>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width" />
         <title>thassiov;</title>
         <link href='https://fonts.googleapis.com/css?family=Fira+Mono:500' rel='stylesheet' type='text/css'>
         <link rel="stylesheet" href="assets/css/custom.css" type="text/css" media="screen" title="no title" charset="utf-8">
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.5/angular.min.js"></script>
+        <script src="https://unpkg.com/angular-ui-router/release/angular-ui-router.min.js"></script>
+        <script src="app/app.js"></script>
     </head>
     <body>
-
-        <header>
-            <h3>Hello!</h3>
-            <p>My name is <span id="name">Thassio Victor</span></p>
-            <p>I'm a <span class="negative">developer</span>.</p>
-        </header>
-
-        <article>
-            <p>I work on backend systems using Node.js</p>
-        </article>
-
-        <footer>
-            <p>I'm <span class="negative">@thassiov</span> everywhere:
-                <a href="http://github.com/thassiov">github</a> |
-                <a href="https://stackexchange.com/users/551146/thassiov">stack exchange</a> |
-                <a href="http://medium.com/@thassiov">medium</a>
-            </p>
-        </footer>
+        <div ui-view></div>
     </body>
 </html>
