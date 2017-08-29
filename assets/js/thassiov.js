@@ -30,6 +30,13 @@ window.onload = function() {
         clearText('#response-value');
     }
 
+    $('#getgreetings').on('click', function() {
+        clearJson();
+        setJsonResponseHeader();
+        writeLetterByLetter('#response-key', '\"greetings\":', 0);
+        writeLetterByLetter('#response-value', '\"Hello, world!\"', 0);
+    });
+
     $('#getbio').on('click', function() {
         clearJson();
         setJsonResponseHeader();
