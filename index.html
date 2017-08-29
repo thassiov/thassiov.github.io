@@ -29,11 +29,45 @@
     </head>
     <body>
         <div class="container">
-            <div ui-view></div>
+            <header class="row">
+                <div class="col-xs-6 col-md-4 text-left">
+                    <p class="lead">Hello!</p>
+                    <p>My name is <span id="name">Thassio Victor</span><span id="this-guy">*</span></p>
+                    <p>I'm a <kbd>developer</kbd> living in Ananindeua, Brazil.</p>
+                </div>
+            </header>
+
+            <br></br>
+
+            <div class="row">
+                <article class="col-sx-6 col-md-4 text-left">
+                    <p>I work on backend systems using Node.js and write about it from time to time</p>
+                </article>
+
+                <aside class="col-sx-6 col-md-4 col-md-offset-2 text-left">
+                    <img id="t-brand" src="assets/img/t_green_square.png" class="img-responsive" alt="Thassio Victor">
+                    <img id="thassiov" class="hidden" src="assets/img/thassiov.jpg" class="img-responsive" alt="Thassio Victor">
+                </aside>
+            </div>
+
+            <br></br>
+
+            <footer class="row">
+                <div class="col-sx-6 col-md-4 text-left">
+                    <p>I'm <kbd><kbd>@thassiov</kbd></kbd> everywhere:</p>
+                    <p>
+                        <a href="https://www.linkedin.com/in/thassiov/">linkedin</a> |
+                        <a href="http://github.com/thassiov">github</a> |
+                        <a href="https://stackexchange.com/users/551146/thassiov">stack exchange</a> |
+                        <a href="http://medium.com/@thassiov">medium</a>
+                    </p>
+                    <address>
+                        <a href="mailto:tvmcarvalho@gmail.com?subject=Hello, Thassio!">mailto:tvmcarvalho@gmail.com</a>
+                    </address>
+                </div>
+            </footer>
         </div>
-        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.5/angular.min.js"></script>
-        <script src="https://unpkg.com/angular-ui-router/release/angular-ui-router.min.js"></script>
-        <script src="app/app.js"></script>
-        <script src="app/modules/home.js"></script>
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+        <script src="assets/js/thassiov.js"></script>
     </body>
 </html>
