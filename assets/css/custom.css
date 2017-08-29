@@ -34,8 +34,12 @@ header {
     font-size: 1.4em;
 }
 
+ul#menu {
+    list-style: none;
+}
+
 article {
-    margin-top: 4em;
+    margin-top: 30vh;
 }
 
 footer {
@@ -46,4 +50,8 @@ footer {
 
 footer a {
     text-decoration: none;
+}
+
+#clear {
+    margin-top: 5px;
 }
