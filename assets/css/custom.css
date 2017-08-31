@@ -52,6 +52,11 @@ footer a {
     text-decoration: none;
 }
 
+.negative {
+    color: #ffffff;
+    background: #000000
+}
+
 #clear {
     margin-top: 5px;
 }
