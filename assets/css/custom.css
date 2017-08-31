@@ -11,10 +11,12 @@ header {
 }
 
 #t-brand {
-    width: 6em;
+    position: absolute;
+    top: 40vh;
+    width: 8em;
     height: auto;
     margin: auto;
-    margin-bottom: 5px;
+    /*margin-bottom: 5px;*/
 }
 
 #thassiov {
@@ -34,11 +36,11 @@ header {
     font-size: 1.4em;
 }
 
-ul#menu {
+ul#skills {
     list-style: none;
 }
 
-article {
+aside {
     margin-top: 30vh;
 }
 

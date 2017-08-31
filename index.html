@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html ng-app="thassiov">
+<html>
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -34,18 +34,23 @@
                         <p class="lead">Hello, world!</p>
                         <p>My name is <span id="name">Thassio Victor</span><span id="this-guy">*</span></p>
                         <p>I'm a <span class="negative">developer</span> living in Ananindeua, Brazil.</p>
+                        <p>I work on backend systems using Node.js and write about it from time to time. I mostly work on RESTful APIs and CLI apps.</p>
                     </div>
                 </header>
 
-                <br></br>
-
                 <div class="row">
-                    <p>I have some routes for you to try:</p>
-                    <ul id="menu">
-                        <li>GET <a id="getbio" href="#bio">thassiov/bio.json</a></li>
-                        <li>GET <a id="getskills" href="#skills">thassiov/skills.json</a></li>
-                        <li>GET <a id="getcontact" href="#contact">thassiov/contact.json</a></li>
-                        <li><button id="clear" class="btn btn-default">CLEAR DATA</button></li>
+                    <h4>My <span class="negative">skills</span></h4>
+                    <ul id="skills">
+                        <li>[git,</li>
+                        <li>javascript,</li>
+                        <li>node.js,</li>
+                        <li>mongodb,</li>
+                        <li>restful api,</li>
+                        <li>scrum,</li>
+                        <li>linux,</li>
+                        <li>vim,</li>
+                        <li>docker,</li>
+                        <li>python]</li>
                     </ul>
                 </div>
 
@@ -59,20 +64,15 @@
                         <a href="https://stackexchange.com/users/551146/thassiov">stack exchange</a> |
                         <a href="http://medium.com/@thassiov">medium</a>
                     </p>
+                    <address>
+                        <a href="mailto:tvmcarvalho@gmail.com?subject=feedback">tvmcarvalho@gmail.com</a></address>
                 </footer>
             </div>
-            <div class="col-xs-6 col-md-4 col-md-offset-2 text-left">
-                    <article id="content">
-                        <p id="response-header"></p>
-                        <p>{</p>
-                        <p id="response-key"></p>
-                        <p id="response-value"></p>
-                        <p>}</p>
-                    </article>
-                    <!--<aside class="row">-->
-                        <!--<img id="t-brand" src="assets/img/t_green_square.png" class="img-responsive" alt="Thassio Victor">-->
-                        <!--<img id="thassiov" class="hidden" src="assets/img/thassiov.jpg" class="img-responsive" alt="Thassio Victor">-->
-                    <!--</aside>-->
+            <div class="col-xs-6 col-md-4 col-md-offset-2 text-left hidden-xs">
+                <aside class="row">
+                    <img id="t-brand" src="assets/img/t_green_square.png" class="img-responsive" alt="Thassio Victor">
+                    <!--<img id="thassiov" class="hidden" src="assets/img/thassiov.jpg" class="img-responsive" alt="Thassio Victor">-->
+                </aside>
             </div>
         </div>
         <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
