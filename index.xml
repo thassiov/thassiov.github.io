@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Mimesis</title>
-    <link>thassiov.github.io/</link>
+    <link>https://thassiov.github.io/</link>
     <description>Recent content on Mimesis</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 23 Dec 2018 11:24:30 -0200</lastBuildDate>
     
-	<atom:link href="thassiov.github.io/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://thassiov.github.io/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Blood on Blood</title>
-      <link>thassiov.github.io/posts/blood-on-blood/</link>
+      <link>https://thassiov.github.io/posts/blood-on-blood/</link>
       <pubDate>Sun, 23 Dec 2018 11:24:30 -0200</pubDate>
       
-      <guid>thassiov.github.io/posts/blood-on-blood/</guid>
+      <guid>https://thassiov.github.io/posts/blood-on-blood/</guid>
       <description> </description>
     </item>
     
