@@ -5,7 +5,7 @@ const { spawnSync } = require('child_process');
 const { resolve } = require('path');
 const {userInfo} = require('os');
 
-const PROJECT_ROOT = resolve(process.cwd(), '..');
+const PROJECT_ROOT = resolve(__dirname, '..');
 
 (async () => {
   const {postName, openEditor} = await promptUser();
