@@ -3,414 +3,62 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Thassio Victor — Backend Developer</title>
-    <meta
-      name="description"
-      content="Backend Developer (9+ yrs). Node.js, TypeScript, AWS, Kubernetes. I build reliable, cloud-native APIs and migrations at scale."
-    />
-    <meta property="og:title" content="Thassio Victor — Backend Developer" />
-    <meta
-      property="og:description"
-      content="Node.js, TypeScript, AWS. Scaled GraphQL to 300M+ req/day. Migrations to microservices. Open-source contributor."
-    />
-    <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://thassio.dev" />
-    <link rel="icon" href="/favicon.ico" />
-    <style>
-      :root {
-        --bg: #fafafa;
-        --fg: #0b0b0b;
-        --muted: #6b7280;
-        --ring: #e5e7eb;
-        --card: #fff;
-        --card-border: #e6e6e6;
-        --accent: #111;
-        --accent-fg: #fff;
-        --link: #0a66c2;
-        --radius: 14px;
-        --max: 48rem;
-      }
-      @media (prefers-color-scheme: dark) {
-        :root {
-          --bg: #0a0a0a;
-          --fg: #f2f2f2;
-          --muted: #a1a1aa;
-          --ring: #1f2937;
-          --card: #0f0f10;
-          --card-border: #202022;
-          --accent: #f2f2f2;
-          --accent-fg: #000;
-          --link: #8ab4f8;
-        }
-      }
-      body {
-        margin: 0;
-        background: var(--bg);
-        color: var(--fg);
-        font:
-          16px/1.6 system-ui,
-          -apple-system,
-          Segoe UI,
-          Roboto,
-          Inter,
-          "Helvetica Neue",
-          Arial,
-          "Noto Sans",
-          "Apple Color Emoji",
-          "Segoe UI Emoji";
-      }
-      .wrap {
-        max-width: var(--max);
-        margin: 0 auto;
-        padding: 4rem 1.25rem;
-      }
-      header h1 {
-        font-size: 1.875rem;
-        margin: 0;
-        font-weight: 700;
-      }
-      h2 {
-        font-size: 1.125rem;
-        margin: 2rem 0 0.5rem;
-        font-weight: 700;
-      }
-      .muted {
-        color: var(--muted);
-      }
-      .row {
-        display: flex;
-        flex-wrap: wrap;
-        gap: 0.6rem;
-        margin-top: 0.9rem;
-      }
-      .btn {
-        display: inline-block;
-        padding: 0.55rem 0.9rem;
-        border-radius: 10px;
-        text-decoration: none;
-        border: 1px solid var(--ring);
-        color: var(--fg);
-        background: transparent;
-      }
-      .btn.primary {
-        background: var(--accent);
-        color: var(--accent-fg);
-        border-color: var(--accent);
-      }
-      .langswitch {
-        display: flex;
-        gap: 0.4rem;
-        margin: 0 0 1rem 0;
-      }
-      .langswitch button {
-        padding: 0.35rem 0.6rem;
-        border-radius: 8px;
-        border: 1px solid var(--ring);
-        background: transparent;
-        color: var(--fg);
-        cursor: pointer;
-      }
-      .langswitch button[aria-pressed="true"] {
-        background: var(--accent);
-        color: var(--accent-fg);
-        border-color: var(--accent);
-      }
-      .grid {
-        display: grid;
-        gap: 0.9rem;
-      }
-      .card {
-        background: var(--card);
-        border: 1px solid var(--card-border);
-        border-radius: var(--radius);
-        padding: 1rem;
-      }
-      .card h3 {
-        margin: 0;
-        font-size: 1rem;
-      }
-      .card .meta {
-        font-size: 0.9rem;
-        color: var(--muted);
-        margin-top: 0.35rem;
-      }
-      ul {
-        margin: 0.4rem 0 0 1.25rem;
-        padding: 0;
-      }
-      li {
-        margin: 0.35rem 0;
-      }
-      a {
-        color: var(--link);
-      }
-      footer {
-        font-size: 0.9rem;
-        color: var(--muted);
-        margin-top: 2rem;
-      }
-      @media (min-width: 680px) {
-        .grid {
-          grid-template-columns: 1fr 1fr;
-        }
-      }
-    </style>
+    <title>thassio.dev</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <main class="wrap">
-      <div class="langswitch" aria-label="Language switcher">
-        <button id="btn-en" type="button" aria-pressed="true">EN</button>
-        <button id="btn-pt" type="button" aria-pressed="false">PT</button>
+    <canvas id="field"></canvas>
+
+    <div class="content">
+      <div class="layout">
+        <div class="card card-main">
+          <h1>Thassio Victor</h1>
+          <div class="subtitle">Software Developer and Consultant</div>
+        <div class="location">São Paulo, Brazil</div>
+          <p>I'm a Software Developer and Consultant with 10+ years of experience building and maintaining scalable web services, cloud-native systems and tooling at enterprises, fast-paced startups, and open-source projects.</p>
+          <p>Working fluently with AI, I write production code to industry standards with observability built in. I've designed high-available APIs, migrated legacy systems to modern architectures, and owned end-to-end observability, platform infrastructure and on-call production support for the services I help build.</p>
+          <div class="links">
+            <a href="https://github.com/thassiov">github</a>
+            <span>·</span>
+            <a href="https://linkedin.com/in/thassiov">linkedin</a>
+            <span>·</span>
+            <a href="mailto:tvmcarvalho@gmail.com">email</a>
+            <span>·</span>
+            <a href="/thassio-victor-cv.pdf">cv</a>
+          </div>
+        </div>
+
+        <div class="projects">
+          <a href="https://github.com/thassiov/cmdvault" class="card card-project" target="_blank" rel="noopener">
+            <h3>cmdvault</h3>
+            <p class="project-desc">Searchable CLI snippet vault in Go. YAML-defined commands, fuzzy search, dynamic placeholders, shell integration.</p>
+            <span class="project-tags">Go · Cobra · FZF · SQLite</span>
+          </a>
+          <a href="https://github.com/thassiov/nib" class="card card-project" target="_blank" rel="noopener">
+            <h3>nib</h3>
+            <p class="project-desc">Self-hosted Excalidraw platform with public gallery, OIDC auth, anonymous drawings, server-side PNG export, and Prometheus metrics.</p>
+            <span class="project-tags">TypeScript · NestJS · React · PostgreSQL</span>
+          </a>
+          <a href="https://github.com/thassiov/engram-agent" class="card card-project" target="_blank" rel="noopener">
+            <h3>engram-agent</h3>
+            <p class="project-desc">Go daemon that extracts structured observations from AI coding sessions, embeds them as vectors for semantic dedup, and syncs across machines via PostgreSQL.</p>
+            <span class="project-tags">Go · SQLite · PostgreSQL · Ollama</span>
+          </a>
+          <a href="https://github.com/thassiov/sessions" class="card card-project" target="_blank" rel="noopener">
+            <h3>sessions</h3>
+            <p class="project-desc">Indexes Claude Code session JSONL files into SQLite + FTS5. Full-text search, analytics, live topic capture, and a fsnotify-based watcher daemon.</p>
+            <span class="project-tags">Go · SQLite · FTS5 · fsnotify</span>
+          </a>
+        </div>
       </div>
+    </div>
 
-      <header>
-        <h1 id="name">Thassio Victor</h1>
-        <p id="tagline" class="muted">
-          Backend Developer (9+ yrs) — Node.js, TypeScript, AWS
-        </p>
-        <p id="subline">
-          I build reliable, cloud-native APIs and migrations at scale.
-        </p>
-        <div class="row">
-          <a id="cv" class="btn primary" href="/thassio-victor-cv.pdf"
-            >Download CV</a
-          >
-          <a
-            id="github"
-            class="btn"
-            href="https://github.com/thassiov"
-            target="_blank"
-            rel="noopener"
-            >GitHub</a
-          >
-          <a
-            id="linkedin"
-            class="btn"
-            href="https://www.linkedin.com/in/thassiov/"
-            target="_blank"
-            rel="noopener"
-            >LinkedIn</a
-          >
-          <a id="email" class="btn" href="mailto:tvmcarvalho@gmail.com"
-            >Email</a
-          >
-        </div>
-      </header>
+    <div class="theme-toggle">
+      <button id="btn-light" type="button" aria-pressed="true" title="Light">☀</button>
+      <button id="btn-dark" type="button" aria-pressed="false" title="Dark">☾</button>
+    </div>
 
-      <section>
-        <h2 id="highlights-title">Highlights</h2>
-        <ul id="highlights-list">
-          <li>
-            Scaled GraphQL APIs to <strong>300M+ req/day</strong> with
-            <strong>99.99% uptime</strong>.
-          </li>
-          <li>Migrated monoliths to microservices (AWS/GCP/Kubernetes).</li>
-          <li>Open-source contributor (Rocket.Chat Apps Engine).</li>
-        </ul>
-      </section>
-
-      <section>
-        <h2 id="projects-title">Projects</h2>
-        <div class="grid">
-          <article class="card">
-            <h3 id="sump-title">sump — Identity Provider</h3>
-            <p id="sump-desc">
-              Self-hostable identity provider (OpenID Connect). Explores Saga
-              pattern; can run as package, monolith, or microservices.
-            </p>
-            <p class="meta">
-              <span id="sump-meta">TypeScript · PostgreSQL · Docker</span> —
-              <a
-                href="https://github.com/thassiov/sump"
-                target="_blank"
-                rel="noopener"
-                >GitHub</a
-              >
-            </p>
-          </article>
-
-          <article class="card">
-            <h3 id="lobby-title">lobby-line — Queue Management</h3>
-            <p id="lobby-desc">
-              Queue system like hospitals/restaurants: queue CRUD,
-              enqueue/dequeue APIs, React dashboard (WIP).
-            </p>
-            <p class="meta">
-              <span id="lobby-meta"
-                >TypeScript · React (Vite + shadcn) · Docker</span
-              >
-              —
-              <a
-                href="https://github.com/thassiov/lobby-line"
-                target="_blank"
-                rel="noopener"
-                >GitHub</a
-              >
-            </p>
-          </article>
-        </div>
-      </section>
-
-      <footer>
-        <p id="footer">
-          © <span id="year"></span> Thassio Victor —
-          <a id="cv-footer" href="/thassio-victor-cv.pdf">CV (PDF)</a>
-        </p>
-      </footer>
-    </main>
-
-    <script>
-      // Year
-      document.getElementById("year").textContent = new Date().getFullYear();
-
-      // Content for both languages
-      const content = {
-        en: {
-          lang: "en",
-          title: "Thassio Victor — Backend Developer",
-          metaDesc:
-            "Backend Developer (9+ yrs). Node.js, TypeScript, AWS, Kubernetes. I build reliable, cloud-native APIs and migrations at scale.",
-          tagline: "Backend Developer (9+ yrs) — Node.js, TypeScript, AWS",
-          subline:
-            "I build reliable, cloud-native APIs and migrations at scale.",
-          cvText: "Download CV",
-          cvHref: "/thassio-victor-cv.pdf",
-          highlightsTitle: "Highlights",
-          highlights: [
-            "Scaled GraphQL APIs to <strong>300M+ req/day</strong> with <strong>99.99% uptime</strong>.",
-            "Migrated monoliths to microservices (AWS/GCP/Kubernetes).",
-            "Open-source contributor.",
-          ],
-          projectsTitle: "Projects",
-          sumpTitle: "sump — Identity Provider",
-          sumpDesc:
-            "Self-hostable identity provider that uses OpenID Connect. Explores Saga pattern; can run as package, monolith, or microservices.",
-          sumpMeta: "TypeScript · PostgreSQL · Docker",
-          lobbyTitle: "lobby-line — Queue Management",
-          lobbyDesc:
-            "Queue system like hospitals/restaurants: queue CRUD, enqueue/dequeue APIs, React dashboard (WIP).",
-          lobbyMeta: "TypeScript · React (Vite + shadcn) · Docker",
-          footer: "© {year} Thassio Victor — ",
-          footerCv: "CV (PDF)",
-        },
-        pt: {
-          lang: "pt-BR",
-          title: "Thassio Victor — Desenvolvedor Backend",
-          metaDesc:
-            "Desenvolvedor Backend (9+ anos). Node.js, TypeScript, AWS, Kubernetes. Entrego APIs robustas e sistemas cloud native.",
-          tagline: "Desenvolvedor Backend (9+ anos) — Node.js, TypeScript, AWS",
-          subline: "Entrego APIs robustas e sistemas cloud native.",
-          cvText: "Baixar CV",
-          cvHref: "/thassio-victor-cv-ptbr.pdf",
-          highlightsTitle: "Destaques",
-          highlights: [
-            "Escalei APIs GraphQL para <strong>300M+ req/dia</strong> com <strong>99,99% de disponibilidade</strong>.",
-            "Migrações de monolitos para microsserviços (AWS/GCP/Kubernetes).",
-            "Contribuidor open-source.",
-          ],
-          projectsTitle: "Projetos",
-          sumpTitle: "sump — Provedor de Identidade",
-          sumpDesc:
-            "Identity provider que utiliza OpenID Connect. Explora o padrão Saga; pode rodar como pacote, monolito ou microsserviço.",
-          sumpMeta: "TypeScript · PostgreSQL · Docker",
-          lobbyTitle: "lobby-line — Gerenciamento de Filas",
-          lobbyDesc:
-            "Sistema de filas como em hospitais/restaurantes: CRUD de filas, APIs de entrada/saída, dashboard em React (em andamento).",
-          lobbyMeta: "TypeScript · React (Vite + shadcn) · Docker",
-          footer: "© {year} Thassio Victor — ",
-          footerCv: "CV (PDF)",
-        },
-      };
-
-      const els = {
-        tagline: document.getElementById("tagline"),
-        subline: document.getElementById("subline"),
-        cv: document.getElementById("cv"),
-        cvFooter: document.getElementById("cv-footer"),
-        highlightsTitle: document.getElementById("highlights-title"),
-        highlightsList: document.getElementById("highlights-list"),
-        projectsTitle: document.getElementById("projects-title"),
-        sumpTitle: document.getElementById("sump-title"),
-        sumpDesc: document.getElementById("sump-desc"),
-        sumpMeta: document.getElementById("sump-meta"),
-        lobbyTitle: document.getElementById("lobby-title"),
-        lobbyDesc: document.getElementById("lobby-desc"),
-        lobbyMeta: document.getElementById("lobby-meta"),
-        footer: document.getElementById("footer"),
-      };
-
-      function setLang(lang) {
-        const c = content[lang] || content.en;
-
-        // html lang
-        document.documentElement.setAttribute("lang", c.lang);
-
-        // title & meta description
-        document.title = c.title;
-        const meta = document.querySelector('meta[name="description"]');
-        if (meta) meta.setAttribute("content", c.metaDesc);
-
-        // body content
-        els.tagline.textContent = c.tagline;
-        els.subline.textContent = c.subline;
-        els.cv.textContent = c.cvText;
-        els.cv.setAttribute("href", c.cvHref);
-        document.getElementById("highlights-title").textContent =
-          c.highlightsTitle;
-
-        // highlights list (as HTML to preserve <strong> tags)
-        els.highlightsList.innerHTML = c.highlights
-          .map((li) => `<li>${li}</li>`)
-          .join("");
-
-        document.getElementById("projects-title").textContent = c.projectsTitle;
-        els.sumpTitle.textContent = c.sumpTitle;
-        els.sumpDesc.textContent = c.sumpDesc;
-        els.sumpMeta.textContent = c.sumpMeta;
-        els.lobbyTitle.textContent = c.lobbyTitle;
-        els.lobbyDesc.textContent = c.lobbyDesc;
-        els.lobbyMeta.textContent = c.lobbyMeta;
-
-        // footer
-        const year = new Date().getFullYear();
-        els.footer.innerHTML =
-          c.footer.replace("{year}", year) +
-          `<a id="cv-footer" href="${c.cvHref}">${c.footerCv}</a>`;
-
-        // button state
-        document
-          .getElementById("btn-en")
-          .setAttribute("aria-pressed", lang === "en" ? "true" : "false");
-        document
-          .getElementById("btn-pt")
-          .setAttribute("aria-pressed", lang === "pt" ? "true" : "false");
-
-        // persist
-        try {
-          localStorage.setItem("lang", lang);
-        } catch {}
-      }
-
-      // events
-      document
-        .getElementById("btn-en")
-        .addEventListener("click", () => setLang("en"));
-      document
-        .getElementById("btn-pt")
-        .addEventListener("click", () => setLang("pt"));
-
-      // initial language: saved pref or browser language
-      (function initLang() {
-        let lang = "en";
-        try {
-          lang = localStorage.getItem("lang") || lang;
-        } catch {}
-        if (!lang) {
-          const nav = (navigator.language || "en").toLowerCase();
-          lang = nav.startsWith("pt") ? "pt" : "en";
-        }
-        setLang(lang);
-      })();
-    </script>
+    <script src="theme.js"></script>
+    <script src="field.js"></script>
   </body>
 </html>
